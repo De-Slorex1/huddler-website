@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Started</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <center>
+    <div class="form-container">
+        <div class="page-logo">
+            <img src="images/logo.svg" class="logo-img" width="100px" height="30px" alt="logo.svg">
+            <a href="#">Try It Free</a>
+        </div>
+        <div class="signup-background">
+            <h1>Registration Form</h1>
+            <form>
+                <input type="text" name="name" class="input" placeholder="First Name" required><br>
+                <input type="" name="name" class="input" placeholder="Last Name" required><br>
+                <input type="email" name="name" class="input" placeholder="Email" required><br>
+                <input type="password" name="password" class="input" placeholder="Password" required><br>
+                <input type="password" name="password" class="input" placeholder="Confirm Password" required><br>
+                <input type="text" name="Brand" class="input" placeholder="Brand Name" required><br>
+                <input type="text" name="Product" class="input" placeholder="Brand Product" required><br>
+                <input type="tel" name="Phone Number" class="input" placeholder="Phone Number" required><br>
+                <select class="input">
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="Canada">Canada</option>
+                    <option value="New York">New York</option>
+                    <option value="United State">United State</option>
+                    <option value="Ghana">Ghana</option>
+                    <option value="Dubai">Dubai</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="Uganda">Uganda</option>
+                </select>
+                <button class="reg-btn" id="btn">Register</button>
+            </form>
+        </div>
+    </div>
+    </center>
+    <script>
+        let btn = document.querySelector("#btn");
+        btn.addEventListener("click", () =>{
+            alert("Registration was successful!!!");
+        });
+    </script>
+</body>

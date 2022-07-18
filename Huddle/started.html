@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Started</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <center>
+        <div class="form-container">
+            <div class="page-logo">
+                <img src="images/logo.svg" class="logo-img" width="100px" height="30px" alt="logo.svg">
+                <a href="#">Try It Free</a>
+            </div>
+            <div class="login">
+                <h1>Login</h1>
+                <form>
+                    <input type="email" class="inputs" name="name" placeholder="Email" required><br>
+                    <input type="password" class="inputs" name="name" placeholder="Password" required><br>
+                    <div class="checkbox">
+                        <input type="checkbox">
+                        <label style="font-family: 12px; color: grey;">Remember me</label><br>
+                    </div>
+                    <button class="login-btn" id="btn">Login</button><br>
+                    <a href="#" class="password">Forgot Password?</a><br><br>
+                    <a href="signUp.html" class="signup">Create New Account</a>
+                </form>
+            </div>
+        </div>
+    </center>
+    <script>
+        let btn = document.querySelector("#btn");
+        btn.addEventListener("click", () =>{
+            alert("Page is unavailable");
+        });
+    </script>
+</body>
+</html>
